@@ -1,0 +1,4 @@
+Asharp_Bflat
+Dsharpminormajor_Eflatminormajor
+Csus4
+Fsharpsus4_Gflatsus4
