@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="utf-8"/>
+
+    <title>Tone.jsサンプル</title>
+
+
+  </head>
+
+  <body>
+    
+
+    <!-- <button id="test" onclick="test1()">テスト</button><br> -->
+
+    <button id="DengenOn" onclick="DengenOn()">電源オン</button>
+    
+    <hr>
+    コードリストファイルを選択:<input type="file" id="ChordListFileSelect"><br>
+    楽譜リストファイルを選択:<input type="file" id="NoteListFileSelect"><br>
+    <hr>
+    
+    現在の楽譜:
+    <span id="CurrentNoteSpan" style="font-size: 28px;color:red">--</span><br>
+    次の楽譜
+    <span id="NextNoteSpan" style="font-size: 23px;color:blue">--</span><br>    
+    
+    <button id="PlayBtn" onclick="Play1()">音を出す</button><br>
+    <button id="PrevBtn" onclick="ToPrev()">一つ前へ</button><br>
+    <button id="InitBtn" onclick="InitNote()">最初へ</button><br>
+    <hr>
+    
+    <button id="setChordListBtn" onclick="setChordList()">コードリストファイルからコードリストをロード</button>
+    <br>
+    
+    <button id="InitNoteBtn" onclick="InitNote()">楽譜ファイルをロード</button>
+    
+    <br>
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script src="./Tone.js"></script>
+
+    <script src="playCodeJS.js"></script>
+
+    
+
+  </body>
+
+</html>
